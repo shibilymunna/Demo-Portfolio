@@ -1,0 +1,282 @@
+*{
+
+  }
+  
+
+}
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: black;
+    position: sticky;
+    padding: 15px;
+    position: relative;
+    bottom: 50px;
+    height: 35px;
+    margin: 0%;
+}
+
+nav ul {
+    list-style-type: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight:150;
+    font-style: normal;
+    padding: 0;
+    display: flex;
+    position: sticky;
+    justify-content: space-evenly;
+    bottom: 10px;
+    margin: 0%;
+}
+
+nav ul li {
+    display: inline;
+    position: sticky;
+}
+
+nav ul li a {
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+    font-size: 18px;
+    position: sticky;
+    
+}
+
+nav ul li a:hover {
+    color: rgb(255, 0, 0);
+    text-wrap: stable;
+}
+
+  
+  header nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(98, 255, 0);
+    position: sticky;
+    
+  }
+
+  header nav:hover{
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transform-style: preserve-3d;
+  }
+  
+  header nav{
+    list-style-position: initial;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+  }
+  
+  .navt{
+    display: flex;
+    align-items: center;
+    position: sticky;
+  }
+
+  header nav{
+    margin: 0 10px;
+    box-shadow: 2px 2px 2px;
+    position: sticky;
+
+    background-color: aqua;
+  }
+  
+  header nav {
+    text-decoration: solid;
+    color: #030000;
+    transition: color 0.3s step-start;
+    font-family:Arial, Helvetica, sans-serif
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+  }
+  
+  header nav:hover {
+    color: #840000;
+  }
+  
+  .hero-image {
+    margin-top: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .namet{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  
+  .about{
+    height;
+  }
+
+  header .hero-text {
+    text-align: center;
+    color: #842020;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  section h2 {
+    text-align: center;
+  }
+  
+  .experience-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .experiences-item {
+    border: 1px solid #333333;
+    padding: 20px;
+    text-align: center;
+    background-color: #328874;
+    width: 500px;
+    display: inline-block;
+  }
+  
+  .experiences-item img {
+    display: flexb;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media li {
+    margin: 0 10px;
+  }
+  
+  .social-media li a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-media li a:hover {
+    color: #00ff00;
+  }
+
+  .li{
+    list-style: none;
+  }
+
+  .h2s{
+    margin: 0 15px; 
+    padding: 10px; 
+    border-radius: 10%; 
+    color: rgb(100, 221, 19);
+  }
+
+
+
+  body { 
+    text-align: center; 
+    font-family: Arial; 
+    margin-top: 100px; 
+  }
+  
+  .follow-button { 
+    background-color: #46a514; 
+    color: rgb(255, 255, 255); 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    display: inline-block;
+  }
+
+  .follow-button:hover{
+    transform: scale(1.1); 
+    background-color: #c41111;
+  }
+  
+  .social-icons { 
+    margin-top: 20px; 
+  }
+  
+  .icon { 
+    font-size: 30px; 
+    margin: 0 15px; 
+    padding: 10px; 
+    border-radius: 50%; 
+    color: white; 
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .instagram { background-color: #E1306C; }
+  .linkedin { background-color: #0077b5; }
+  .facebook { background-color: #3b5998; }
+  
+  .icon:hover { 
+    transform: scale(1.2); 
+    background-color: rgb(0, 0, 0);
+  }
+
+  #skillh{
+    color: #00ff00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  body { 
+    text-align: center; 
+    font-family: Arial; 
+    margin-top: 50px; 
+    background-color: #120351;
+    color: #ccff00; 
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    transition: color 0.3s;
+  }
+  
+  h2:hover {
+    color: #00f600;
+  }
+  
+  table {
+    margin: 0 auto;
+    border-collapse: inherit;
+    width: 80%;
+  }
+  
+  td {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font: 300;
+    padding: 20px;
+    font-size: 15px;
+    background-color: #56d905;
+    color: #000000;
+    transition: transform 0.3s;
+    border-radius: 360px;
+  }
+  
+  td:hover {
+    color: #33ff00;
+    background-color: #000000;
+    transform: scale(1.05);
+  }
+  
+  i {
+    margin-right: 10px;
+  }
+  
+  
